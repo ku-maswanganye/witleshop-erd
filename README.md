@@ -79,7 +79,7 @@ Some of the key relationships include:
 
 The ERD illustrates how the different entities within the WitleShop database are connected.
 
-![WitleShop ERD](WitleShop_ERD.drawio.png)
+![WitleShop ERD](witleshop_erd_diagram.png)
 
 The diagram identifies:
 
@@ -138,7 +138,7 @@ Orders and Payments have a one-to-one relationship. One payment
 belongs to one order, vice versa. Order_ID is therefore stored as 
 a foreign key in Payments.
 
-6. **Orders and Deliveries
+6. **Orders and Deliveries**
 
 Orders and Deliveries have a one-to-one relationship. Am order is delivered 
 once. Order_ID is therefore stored as a foreign key in Deliveries.
@@ -146,9 +146,11 @@ once. Order_ID is therefore stored as a foreign key in Deliveries.
 ## 📂 Project Structure
 
 ```text
- WitleShop-Database
- ┣  README.md
- ┗  WitleShop_ERD.drawio
+ witleshope-database-project/
+│
+├── README.md
+├── project_instructions
+└── witleshop_erd_diagram.png
 ```
 
 ## 💡 Key Learning Outcomes
@@ -180,7 +182,7 @@ Possible improvements to the project include:
 
 **Kutlwano Maswanganye**
 
-This project forms part of my ongoing development in **finance, accounting, data analysis, and technology**.
+This project forms part of my ongoing development in ** data analysis and technology**.
 
 ---
 
